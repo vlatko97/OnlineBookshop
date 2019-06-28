@@ -58,10 +58,10 @@
   </wsdl:binding>
   <wsdl:service name="WebService">
     <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
-      <soap:address location="http://localhost:49526/WebService.asmx" />
+      <soap:address location="http://localhost:49527/WebService.asmx" />
     </wsdl:port>
     <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
-      <soap12:address location="http://localhost:49526/WebService.asmx" />
+      <soap12:address location="http://localhost:49527/WebService.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
